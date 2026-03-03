@@ -1,0 +1,79 @@
+.history-page {
+  text-align: center;
+}
+
+.empty-state {
+  background-color: white;
+  padding: 60px 40px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+.empty-message {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.empty-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.history-count {
+  color: #333;
+  font-size: 18px;
+  margin: 0;
+}
+
+.history-count strong {
+  color: #555;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.history-item {
+  background-color: white;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.history-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.bet-number {
+  font-weight: bold;
+  color: #555;
+  font-size: 18px;
+}
+
+.bet-date {
+  color: #999;
+  font-size: 14px;
+}
